@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0d1117"><title>Xiaomi SU7 · Digital Cockpit</title><style>/*__FONT__*/\n/*__CSS__*/</style></head>
+<body>
+<svg class="iconDefs" aria-hidden="true"><defs>
+<symbol id="i-car" viewBox="0 0 24 24"><path d="m5 11 2-6h10l2 6M3 11h18v7H3zm3 7v3m12-3v3M6 14h2m8 0h2"/></symbol>
+<symbol id="i-climate" viewBox="0 0 24 24"><path d="M12 2v20M3.3 7l17.4 10M3.3 17 20.7 7M8 4l4 3 4-3M8 20l4-3 4 3M4 11l1-5 5 1m4 10 5 1 1-5M4 13l1 5 5-1m4-10 5-1 1 5"/></symbol>
+<symbol id="i-seat" viewBox="0 0 24 24"><path d="M7 3h5v7H7zM6 10v6h12l2 4H5l-2-8M9 20v2m8-2v2"/></symbol>
+<symbol id="i-light" viewBox="0 0 24 24"><path d="M8 14a6 6 0 1 1 8 0l-1 3H9zm1 6h6M12 0v2M2 5l2 2m16-2-2 2M1 12h2m18 0h2"/></symbol>
+<symbol id="i-trip" viewBox="0 0 24 24"><path d="m2 5 7-3 6 3 7-3v17l-7 3-6-3-7 3zm7-3v17m6-14v17"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V6a4 4 0 0 1 8 0v4m-4 4v3"/></symbol>
+<symbol id="i-door" viewBox="0 0 24 24"><path d="M5 21V8l6-5h9v18zm2-9h11V5h-6l-5 4zm8 4h3"/></symbol>
+<symbol id="i-hazard" viewBox="0 0 24 24"><path d="m12 3 10 18H2zm0 6v5m0 3v1"/></symbol>
+<symbol id="i-settings" viewBox="0 0 24 24"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="16" cy="17" r="3"/></symbol>
+<symbol id="i-full" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></symbol>
+<symbol id="i-focus" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-camera" viewBox="0 0 24 24"><path d="M3 7h4l2-3h6l2 3h4v14H3z"/><circle cx="12" cy="13" r="4"/></symbol>
+<symbol id="i-charge" viewBox="0 0 24 24"><path d="M7 6h14v12H3V6h4m14 4h2v4h-2M13 8l-4 5h4l-2 3"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></symbol>
+<symbol id="i-reset" viewBox="0 0 24 24"><path d="M3 11a9 9 0 1 1 2 7M3 4v7h7"/></symbol>
+<symbol id="i-music" viewBox="0 0 24 24"><path d="M9 17V4l11-2v13M9 8l11-2"/><ellipse cx="6" cy="18" rx="3" ry="2"/><ellipse cx="17" cy="16" rx="3" ry="2"/></symbol>
+</defs></svg>
+<header class="cockpitTop">
+ <div class="signature"><span class="miMark">mi</span><div><b>XIAOMI <span>SU7</span></b><small>INTELLIGENT COCKPIT</small></div></div>
+ <div class="topStatus"><span class="demoLabel"><i></i> نسخهٔ نمایشی</span><span class="outsideTemp">۲۴° <small>بیرون</small></span><time id="clock">--:--</time><button class="iconButton" data-action="focus" aria-label="حالت تمرکز راننده" title="تمرکز راننده"><svg><use href="#i-focus"/></svg></button><button class="iconButton" data-action="settings" aria-label="تنظیمات نمایشگر" title="تنظیمات"><svg><use href="#i-settings"/></svg></button><button class="iconButton" data-action="fullscreen" aria-label="نمایش تمام‌صفحه" title="تمام‌صفحه"><svg><use href="#i-full"/></svg></button></div>
+</header>
+<main class="cockpit">
+ <section class="driverCluster" aria-label="اطلاعات راننده"><div class="eyebrow">DRIVER DISPLAY <span class="greenDot"></span></div><div class="speedBlock"><strong>0</strong><span>km/h</span></div><div class="gearRow" aria-label="دنده پارک"><b>P</b><span>R</span><span>N</span><span>D</span></div><div class="driveBadge" id="driveBadge">COMFORT</div><div class="energy"><div class="energyTop"><svg><use href="#i-charge"/></svg><strong>۸۲<span>٪</span></strong><span>شارژ باتری</span></div><div class="energyBar"><i></i></div><div class="range"><strong>420 <span>km</span></strong><span>برد نمایشی</span></div></div><div class="clusterRows"><p><span>مسافت سفر</span><b dir="ltr">128.4 km</b></p><p><span>مصرف انرژی</span><b dir="ltr">15.8 kWh</b></p><p><span>وضعیت درها</span><b id="clusterDoors">بسته</b></p></div><div class="parkCard"><span>Ⓟ</span><div><b>خودرو در حالت پارک</b><small>کنترل‌های آسایش در دسترس‌اند</small></div></div><small class="clusterNote">اطلاعات رانندگی نمونه است</small></section>
+ <section class="vehicleStage" aria-label="مدل سه‌بعدی Xiaomi SU7"><div class="vehicleHeading"><div><p class="eyebrow">YOUR VEHICLE / 01</p><h1>SU7 <span>XIAOMI</span></h1><p class="modelSpec">مدل واقعی فایل ارسالی شما</p></div><div class="vehicleBadges"><span id="lockBadge">قفل آزاد</span><span class="statusDot" id="doorBadge">درها بسته</span></div></div>
+ <div id="stage" class="stage"><div class="loading" id="loading"><div class="loader"></div><b>آماده‌سازی مدل SU7</b><span>هندسه و متریال‌ها در حال بارگذاری‌اند</span></div><div id="renderError" hidden><b>نمای سه‌بعدی در دسترس نیست</b><p>مرورگر دارای WebGL2 و شتاب‌دهی سخت‌افزاری لازم است. کنترل‌های پنل همچنان قابل استفاده‌اند.</p><button data-action="retry">تلاش مجدد</button></div></div>
+ <div class="sceneFooter"><div class="sceneHint" id="sceneHint">برای چرخش بکشید · برای زوم از دو انگشت استفاده کنید</div><div class="viewControls" role="group" aria-label="انتخاب زاویهٔ دید"><button data-view="exterior" class="active">نمای بیرون</button><button data-view="front">جلو</button><button data-view="rear">عقب</button><button data-view="interior">کابین</button><button class="orbitButton" data-action="orbit" aria-label="چرخش خودکار" title="چرخش خودکار">↻</button></div><div class="sceneStatus"><span id="paintLabel">آبی یخی</span><span class="dividerDot"></span><span id="sceneLightLabel">چراغ‌ها خاموش</span><button data-action="capture" class="iconButton" aria-label="ذخیره تصویر مدل" title="ذخیره تصویر"><svg><use href="#i-camera"/></svg></button></div></div>
+ </section>
+ <aside class="rightPanel"><div class="panelHeading"><div><small id="panelEnglish">VEHICLE</small><h2 id="panelHeading">کنترل خودرو</h2></div><span class="panelIndex" id="panelIndex">01 / 06</span></div><div id="panelContent"></div><div class="panelBottom"><span class="greenDot"></span> تنظیمات روی همین دستگاه ذخیره می‌شوند</div></aside>
+</main>
+<footer class="bottom"><div class="climateDock driverTemp"><small>راننده</small><div><button data-temp="left,-1" aria-label="کاهش دمای راننده">−</button><strong id="leftTemp">22.0°</strong><button data-temp="left,1" aria-label="افزایش دمای راننده">+</button></div></div><nav class="dockNav" aria-label="منوهای کابین">
+<button data-tab="vehicle" class="active"><svg><use href="#i-car"/></svg><span>خودرو</span></button><button data-tab="access"><svg><use href="#i-door"/></svg><span>دسترسی</span></button><button data-tab="climate"><svg><use href="#i-climate"/></svg><span>تهویه</span></button><button data-tab="seat"><svg><use href="#i-seat"/></svg><span>صندلی</span></button><button data-tab="light"><svg><use href="#i-light"/></svg><span>نور محیط</span></button><button data-tab="trip"><svg><use href="#i-trip"/></svg><span>سفر</span></button>
+</nav><div class="climateDock passengerTemp"><small>سرنشین <span id="syncLabel">SYNC</span></small><div><button data-temp="right,-1" aria-label="کاهش دمای سرنشین">−</button><strong id="rightTemp">22.0°</strong><button data-temp="right,1" aria-label="افزایش دمای سرنشین">+</button></div></div></footer>
+<dialog id="settingsDialog"><div class="dialogHeading"><div><small>DISPLAY & PERSONALIZATION</small><h2>تنظیمات نمایشگر</h2></div><button class="iconButton" data-action="closeSettings" aria-label="بستن تنظیمات"><svg><use href="#i-close"/></svg></button></div><div id="settingsContent"></div></dialog>
+<div id="sleepScreen" hidden><span class="miMark">mi</span><b>XIAOMI SU7</b><p>نمایشگر در حالت استراحت است</p><button data-action="wake">روشن‌کردن پنل</button></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script id="su7-model" type="application/octet-stream">/*__MODEL__*/</script>
+<script>/*__JS__*/</script>
+</body></html>
